@@ -1,0 +1,44 @@
+<scroll-view scroll-y class="mScoll" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class="mainContainer">
+        <!--搜索框-->
+        <view class="searchIC">
+            <input  name="input" placeholder="please input here" class="searchInput" />
+        </view>
+        <!--轮播图-->
+        <swiper indicator-dots="{{indicatorDots}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}">
+            <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+            </block>
+        </swiper>
+        <!--导航部分-->
+        <view class="navContainer">
+            <view class="navItem">
+                <image class="navItemImg"  src='../../static/images/mineh.png'/>
+                <text class="navText">手机</text>
+            </view>
+            <view class="navItem" >
+                <image class="navItemImg" src='../../static/images/mineh.png'/>
+                <text class="navText">手机</text>
+            </view>
+            <view class="navItem">
+                <image class="navItemImg"/>
+                <text class="navText">手机</text>
+            </view>
+            <view class="navItem">
+                <image class="navItemImg"/>
+                <text class="navText">手机</text>
+            </view>
+        </view>
+        <!--图片列表-->
+        <view class="imageContainerF">
+            <image class="imageL" src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+            <view class="imageRC">
+                <image class="imageR" src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+                <image class="imageR" src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'/>
+            </view>
+        </view>
+    </view>
+</scroll-view>

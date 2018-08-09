@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.2",
 	"appid": "wxa60d217994bb20fa",
-	"projectname": "Fxcc",
+	"projectname": "faiWechat",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

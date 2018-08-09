@@ -1,0 +1,40 @@
+
+#myVideo{
+  width: 100%;
+  
+}
+.controls{
+
+  height: 80rpx;
+  line-height: 80rpx;
+  position: absolute;
+  bottom: 0px;
+
+  background: rgba(0, 0, 0, 1);
+
+  width: 100%;
+
+  color: #fff;
+
+  text-align: center;
+
+  display:flex;
+
+}
+
+.play,.pause,.time {
+  flex: 1;
+  height: 100%;
+}
+.time {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.img {
+  width: 24px;
+  height: 24px;
+  margin: 5px auto;
+}

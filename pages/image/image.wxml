@@ -1,0 +1,17 @@
+<!--pages/image/image.wxml-->
+<text>这是一个image组件</text>
+<!-- 
+<image src='../../images/0.jpg'></image>
+
+
+<image src='/images/0.jpg'></image> -->
+
+
+
+ <view class="section section_gap" wx:for="{{list}}" wx:for-item="item">
+    <view class="section__title">{{item.text}}</view>
+    <view class="section__ctn">
+      <image  bindtap="preview" style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" data-src="{{src}}" src="{{src}}"></image>
+    </view>
+  </view>
+

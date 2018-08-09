@@ -1,7 +1,15 @@
 {
   "pages":[
+    "pages/main/main",
+    
+    "pages/audio/audio",
+    "pages/camera/camera",
+    "pages/image/image",
+    "pages/picker/picker",
+     "pages/register/register",
+    "pages/text/text",
     "pages/mains/mains",
-    "pages/main/main",  
+    
     "pages/cargo/cargo",
     "pages/find/find",
     "pages/cart/cart",

@@ -1,0 +1,11 @@
+/* pages/register/register.wxss */
+ 
+input{
+
+  width: 90%;
+  margin: 0 auto;
+  height: 44px;
+  line-height: 44px;
+
+  border: 1rpx solid #eee;
+} 

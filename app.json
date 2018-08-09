@@ -1,15 +1,20 @@
 {
   "pages":[
-    "pages/main/main",
+    "pages/mains/mains",
+    "pages/main/main",  
     "pages/cargo/cargo",
     "pages/find/find",
     "pages/cart/cart",
     "pages/mine/mine"
   ],
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "fai",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
@@ -51,4 +56,5 @@
       }
     ]
   }
+
 }

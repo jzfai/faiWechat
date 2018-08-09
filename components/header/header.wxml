@@ -1,0 +1,6 @@
+<view class='header' id="header" >
+   {{msg}}
+
+
+   <button size='mini' bindtap='getParent'>触发父亲组件的run方法</button>
+</view>

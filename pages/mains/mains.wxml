@@ -1,0 +1,8 @@
+
+<view>
+   <toast id="toast"></toast>       
+   <br/>
+   <header bindmyevent="run" id="header"/>
+    <button size='mini' type="primary" bindtap="showToast"> showToast!        
+    </button>         
+</view>
